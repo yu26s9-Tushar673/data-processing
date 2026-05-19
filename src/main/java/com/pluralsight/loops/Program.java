@@ -1,5 +1,7 @@
 package com.pluralsight.loops;
 
+import com.pluralsight.Person;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -72,8 +74,8 @@ public class Program {
 
         System.out.println("\n---- Age Statistics ----");
         System.out.printf("Average Age:    %.1f%n", averageAge);
-        System.out.println("Oldest Person:  " + oldest);
-        System.out.println("Youngest Person: " + youngest);
+        System.out.println("Oldest Person:  " + oldestPerson);
+        System.out.println("Youngest Person: " + youngestPerson);
     }
 }
 
